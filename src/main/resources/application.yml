@@ -1,4 +1,4 @@
-server.port: 8081
+server.port: 8080
 
 spring.h2.console:
   enabled: true
@@ -24,6 +24,10 @@ security:
   user:
     name: user
     password: test
+  oauth2:
+    client:
+      client-id: foo
+      client-secret: bar
 
 logging.level:
   org.springframework:

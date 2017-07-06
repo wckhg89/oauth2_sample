@@ -48,9 +48,6 @@ public class MemberApiTest {
                 .build();
     }
 
-
-
-
     @Test
     public void 테스트하자 () throws Exception {
         mockMvc.perform(MockMvcRequestBuilders
